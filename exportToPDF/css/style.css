@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+
+.wj-flexgrid {
+    height: 500px;
+    width: 1200px;
+}
+.wj-flexgrid
+  .wj-cell.wj-frozen:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected) {
+  background-color: #f8ffd6;
+}
+
+.wj-flexgrid .wj-cell.wj-frozen-col {
+  border-right: 2px solid red;
+  z-index: 0;
+}
